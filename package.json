@@ -1,8 +1,11 @@
 {
   "name": "docker-clean-images",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cleans all <none> images from Docker",
   "main": "index.js",
+  "bin": {
+    "docker-clean": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
