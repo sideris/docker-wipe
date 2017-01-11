@@ -1,0 +1,24 @@
+{
+  "name": "docker-clean-images",
+  "version": "1.0.0",
+  "description": "Cleans all <none> images from Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sideris/docker-clean-images.git"
+  },
+  "keywords": [
+    "docker",
+    "none",
+    "clean"
+  ],
+  "author": "Petros G. Sideris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sideris/docker-clean-images/issues"
+  },
+  "homepage": "https://github.com/sideris/docker-clean-images#readme"
+}
