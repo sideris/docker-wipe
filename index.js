@@ -5,4 +5,5 @@ function puts(error, stdout, stderr) {
     if(error) throw error
     sys.puts(stdout)
 }
-exec(`docker rmi $(docker images | grep '^<none>' | awk '{print $3}')`, puts);
+console.log("Cleaning Docker images")
+exec(`docker rmi $(docker images | grep "^<none>" | awk '{print $3}')`, puts);
