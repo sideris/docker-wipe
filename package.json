@@ -1,6 +1,6 @@
 {
   "name": "docker-clean-images",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Cleans all <none> images from Docker",
   "main": "index.js",
   "bin": {
