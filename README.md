@@ -1,7 +1,7 @@
 # docker-clean-images
 Removes all `<none>` images from Docker
 
-Simple run `docker-clean`
+Simply run `docker-clean`
 
 ####Things to note
 
