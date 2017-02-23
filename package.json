@@ -1,27 +1,32 @@
 {
-  "name": "docker-clean-images",
-  "version": "1.0.5",
-  "description": "Cleans all <none> images from Docker",
+  "name": "docker-wipe",
+  "version": "1.0.6",
+  "description": "Flush unused Docker images and containers :)",
   "main": "index.js",
   "bin": {
-    "docker-clean": "index.js"
+    "docker-wipe": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sideris/docker-clean-images.git"
+    "url": "git+https://github.com/sideris/docker-wipe.git"
   },
   "keywords": [
     "docker",
-    "none",
-    "clean"
+    "clean",
+    "images",
+    "containers",
+    "dangling"
   ],
   "author": "Petros G. Sideris",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sideris/docker-clean-images/issues"
   },
-  "homepage": "https://github.com/sideris/docker-clean-images#readme"
+  "homepage": "https://github.com/sideris/docker-clean-images#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
