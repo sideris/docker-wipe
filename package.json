@@ -1,6 +1,6 @@
 {
   "name": "docker-wipe",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Flush unused Docker images and containers :)",
   "main": "index.js",
   "bin": {
