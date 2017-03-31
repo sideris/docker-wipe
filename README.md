@@ -2,7 +2,7 @@
 
 Removes Docker images and containers
 
-#####Options
+Options
 =============
 
 There are 3 options to use
